@@ -49,3 +49,22 @@ main{
 section > p{
     text-align: justify;
 }
+
+ul{
+    list-style-position: inside;
+    list-style: none;
+    text-indent: 20px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #0D225C;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+footer > p {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: overline underline;
+}
