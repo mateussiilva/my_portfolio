@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.445);
+}
+header{
+    height: 100px;
+    padding: 10px 50px;
+
+}
+
+
+nav{
+    background-color: #0D225C;
+    padding: 10px;
+     
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+
+    padding: 7px;
+    border-radius: 5px ;
+}
+
+nav > a:hover{
+    background-color: white;
+    color: #0D225C;
+}
+
+main{
+    background-color: #6385E1;
+    margin: auto;
+    min-width: 400px;
+    max-width: 900px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+
+}
+
+section > p{
+    text-align: justify;
+}
